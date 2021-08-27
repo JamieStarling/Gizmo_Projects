@@ -1,6 +1,6 @@
 /*
  * File:  10F322_deviceconfig.h
- * Author: Jamie Starling - GizoFoundry.com 
+ * Author: Jamie Starling - JamieStarling.com 
  *
  * Created on:  June 7, 2019, 9:45 PM
  * 
@@ -37,6 +37,23 @@ DEALINGS IN THE SOFTWARE.
 #pragma config LPBOR = ON    // Brown-out Reset Selection bits
 #pragma config BORV = LO    // Brown-out Reset Voltage Selection
 #pragma config WRT = OFF    // Flash Memory Self-Write Protection
+
+
+
+/*Standard Defines*/
+
+/*EQU 0*/
+#define OFF 0x00
+#define FALSE 0x00
+#define LOW 0x00
+#define OUTPUT 0x00
+
+
+/*EQU 1*/
+#define ON  0x01
+#define TRUE 0x01
+#define HIGH 0x01
+#define INPUT 0x01
 
 
 //Used to calculate the delay time - Change depending on processor Speed
