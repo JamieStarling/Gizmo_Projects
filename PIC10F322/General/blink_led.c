@@ -1,5 +1,5 @@
 /*
- * File:  blink_led.h
+ * File:  blink_led.c
  * Author: Jamie Starling - GizoFoundry.com 
  *
  * Created on:  September 1, 2021, 9:45 AM
